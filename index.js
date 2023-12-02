@@ -15,12 +15,14 @@ function shout(string) {
   }
 
   function sayHiToHeadphonedRoommate(string) {
-    console.log(string === string.toLowerCase());
-    return "I can't hear you!";
-    console.log(string === string.toUpperCase());
-    return "YES INDEED!";
-    console.log(string ===  "Let's have dinner together!");
-    return "I would love to!";
+    if(string === string.toLowerCase()){
+    return "I can't hear you!";}
+    
+    if(string === string.toUpperCase()){
+    return "YES INDEED!";}
+
+    if(string ===  "Let's have dinner together!"){
+    return "I would love to!";}
   }
 
   /*const string = "Hello!";
